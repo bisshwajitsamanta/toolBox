@@ -11,8 +11,8 @@ import (
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "toolBox",
-	Short: "toolBox CLI helps to connect to Teleport and k8s cluster",
+	Use:   "syca",
+	Short: "syca CLI helps to connect to Teleport and k8s cluster",
 	Long:  ``,
 	// Uncomment the following line if your bare application
 	// has an action associated with it:
@@ -37,7 +37,7 @@ func init() {
 	// Cobra supports persistent flags, which, if defined here,
 	// will be global for your application.
 
-	// rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.toolBox.yaml)")
+	// rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.syca.yaml)")
 
 	// Cobra also supports local flags, which will only run
 	// when this action is called directly.
